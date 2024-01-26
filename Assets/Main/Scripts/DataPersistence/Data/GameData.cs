@@ -7,11 +7,11 @@ public class GameData
 {
     //Upgrades
     //Click Upgrade
-    public uint clickUpgradeLevel;
+    public uint clickUpgradeOwned;
     public double clickUpgradePrice;
 
     //Production Upgrade
-    public uint productionUpgradeLevel;
+    public uint productionOwned;
     public double productionUpgradePrice;
 
     //Scriptable Object data
@@ -22,10 +22,10 @@ public class GameData
     // the game starts with when there's no data to load
     public GameData()
     {
-        clickUpgradeLevel = 1;
+        clickUpgradeOwned = 1;
         clickUpgradePrice = 10;
-        productionUpgradeLevel = 1;
-        productionUpgradePrice = 500;
+        productionOwned = 1;
+        productionUpgradePrice = 100;
         mainData = new MainData();
     }
 }

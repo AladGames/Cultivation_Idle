@@ -10,12 +10,7 @@ public class WorkButton : Button
     [Header("MainData SO")]
     [SerializeField] private MainScriptableObject mainDataSO;
 
-    public TMP_Text text;
-
-    void Update()
-    {
-        text.text = "Money : " + mainDataSO.money.ToString("F0");
-    }
+    
 
     public override void OnClick()
     {
